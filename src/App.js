@@ -1,7 +1,4 @@
 
-
-
-
 import { GlobalStyle } from "./components/style/global/GlobalStyle";
 import { LoginPage } from "./components/login/LoginPage";
 
