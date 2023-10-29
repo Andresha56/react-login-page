@@ -47,11 +47,11 @@ export const LoginPage = () => {
           <h2 className="heading">Login</h2>
 
           <form onSubmit={handelSubmit}>
-            <label>Login ID</label>
+            <label>Username</label>
             <input
               type="text"
-              placeholder="Enter Login ID"
-              name="loginId"
+              placeholder="Enter username"
+              name="username"
               onChange={handelInput}
             />
 

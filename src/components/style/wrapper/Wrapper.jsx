@@ -56,15 +56,15 @@ const Wrapper = styled.section`
         .login-options {
           display: flex;
           margin-top: 1rem;
-
+          /* -----check---box--- */
           .checkboxes {
             display: flex;
             flex-direction: column;
             margin-right: 5rem;
-            /* border:1px solid red; */
             gap: 10px;
             input{
               accent-color:#fcb200 ;
+              margin-right: 5px;
             }
           }
         }
@@ -79,6 +79,7 @@ const Wrapper = styled.section`
             margin-left: 0.7rem;
           }
         }
+        /* ---submit--btn-- */
         .submit-btn {
           background-color: #f7b527;
           border: 0;
